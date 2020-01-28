@@ -7,6 +7,6 @@ var postSchema = mongoose.Schema({
 });
 
 //Post model
-var Post = mongoose.model("Post", postSchema);
+// var Post = mongoose.model("Post", postSchema);
 
 module.exports = mongoose.model("Post", postSchema);
