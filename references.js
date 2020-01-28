@@ -4,7 +4,7 @@ mongoose.connect("mongodb://localhost/blog_demo_2", {useNewUrlParser: true, useU
 var Post = require("./models/post");
 var User = require("./models/user");
 
-//1
+//Create a new user
 User.create({
     email: "aiman@gmail.com",
     name: "Md Aiman Sharif"
@@ -12,7 +12,7 @@ User.create({
     console.log(data);
 });
 
-//2
+//Create a new post
 Post.create({
     title: "Best movie",
     content: "Harry Potter"
